@@ -9,9 +9,9 @@ INNER JOIN titleauthor
 ON titles.title_id=titleauthor.title_id
 
 INNER JOIN sales 
-ON titles.title_id=titleauthor.title_id) Step1
+ON titles.title_id=titleauthor.title_id) step_1
 
-GROUP BY  Title_id, Author_id) Step2
+GROUP BY  Title_id, Author_id) step_2
 GROUP BY  Author_id;
 
 
