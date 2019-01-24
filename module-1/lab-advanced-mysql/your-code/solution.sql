@@ -30,7 +30,7 @@ ON titles.title_id=titleauthor.title_id;
 #TemporaryTable
 CREATE TEMPORARY TABLE TablaTemporal
 SELECT Title_id, Author_id, SUM(Royalty) AS Royalties
-FROM Step1
+FROM step_1
 
 GROUP BY  Title_id, Author_id;
 
