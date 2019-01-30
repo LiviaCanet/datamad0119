@@ -22,7 +22,7 @@ Podemos ver la frecuencia de accidentes en cada Área, ordenado por País. Flori
 Si queremos advertir a las autoridades encargadas de las playas en cada área, podemos calificar como actividad de alto riesgo hacer surf y nadar en los estados de Florida, New South Wales, California, Eastern Cape Province y Hawaii.  
 
 Por último, queremos saber qué especie de tiburón se repite más, por lo tanto es más propensa a atacar. Sacamos la conclusión de que la especie más peligrosa o con más tendencia a atacar es el tiburón blanco, que además suele aparecer más por Western Cape Province y California.
-El tiburón blanco no sólo ataca en EEUU, también en Australia (west & south sobretodo).
+El tiburón blanco no sólo ataca en EEUU y South África, también en Australia (west & south sobretodo).
 
 
 
