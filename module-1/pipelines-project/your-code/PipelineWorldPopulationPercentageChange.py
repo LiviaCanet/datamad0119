@@ -44,22 +44,20 @@ def visualize_2(df):
     chart_pct = pctchange.plot.line(legend=True, use_index=True, figsize=(17,10), title = "Percentage Change \n Most to least populated contries vs World population \n x axis = 70's, 80's, 90's, 00's, 10's \n y axis = %")
     return chart_pct
 
-def save_viz_1(chart):
-    fig = chart.get_figure()
-    fig.savefig("Most populated countries" + ".png")
+def save_viz_3(c, name):
+    fig = c.get_figure()
+    fig.savefig(name + ".png")
+    print("Se ha guardado la imagen: {}".format(name))
 
-def save_viz_2(chart_pct):
-    fig = chart_pct.get_figure()
-    fig.savefig("Population Percentage Change" + ".png")
     
 if __name__ == '__main__':
     demo = acquire()
     filtered = wrangle(demo)
     max_pob = analyze_1(filtered)
     chart = visualize_1(max_pob)
-    save_viz_1(chart)
+    save_viz_3(chart, 'Most populated countries')
     pctchange = analyze_2(filtered)
     chart_pct = visualize_2(pctchange)
-    save_viz_2(chart_pct)
+    save_viz_3(chart_pct, 'Population Percentage Change')
     
 
