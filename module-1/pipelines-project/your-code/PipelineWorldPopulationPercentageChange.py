@@ -1,3 +1,9 @@
+
+# coding: utf-8
+
+# In[ ]:
+
+
 #Pipeline - World Population Percentage Change
 
 import pandas as pd
@@ -49,7 +55,7 @@ def save_viz_2(chart_pct):
     
 if __name__ == '__main__':
     demo = acquire()
-    filtered = wrangle(data)
+    filtered = wrangle(demo)
     max_pob = analyze_1(filtered)
     chart = visualize_1(max_pob)
     save_viz_1(chart)
@@ -57,3 +63,4 @@ if __name__ == '__main__':
     chart_pct = visualize_2(pctchange)
     save_viz_2(chart_pct)
     
+
