@@ -28,7 +28,6 @@ def wrangle(df):
 
 def analyze_1(df):
     max_pob = filtered[['China', 'India', 'United States', 'Indonesia', 'Pakistan']].copy()
-    max_pob = max_pob.index.astype(int)
     return max_pob
     
 def visualize_1(df):
