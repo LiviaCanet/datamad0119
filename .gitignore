@@ -2,3 +2,10 @@
 .idea
 venv/
 .ipynb_checkpoints
+
+#final project
+
+globalterrorism.csv
+globalterrorism_excel.xlsx
+globalterrorismdb_0718dist_c.csv
+gt_clean.csv
